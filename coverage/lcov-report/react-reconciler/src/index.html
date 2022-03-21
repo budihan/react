@@ -1,0 +1,1671 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Code coverage report for react-reconciler/src</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+    
+<body>
+<div class='wrapper'>
+    <div class='pad1'>
+        <h1><a href="../../index.html">All files</a> react-reconciler/src</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">45.26% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>10568/23352</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">37.93% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>5806/15306</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">44.78% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>845/1887</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">45.22% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>9283/20529</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
+    </div>
+    <div class='status-line low'></div>
+    <div class="pad1">
+<table class="coverage-summary">
+<thead>
+<tr>
+   <th data-col="file" data-fmt="html" data-html="true" class="file">File</th>
+   <th data-col="pic" data-type="number" data-fmt="html" data-html="true" class="pic"></th>
+   <th data-col="statements" data-type="number" data-fmt="pct" class="pct">Statements</th>
+   <th data-col="statements_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="branches" data-type="number" data-fmt="pct" class="pct">Branches</th>
+   <th data-col="branches_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="functions" data-type="number" data-fmt="pct" class="pct">Functions</th>
+   <th data-col="functions_raw" data-type="number" data-fmt="html" class="abs"></th>
+   <th data-col="lines" data-type="number" data-fmt="pct" class="pct">Lines</th>
+   <th data-col="lines_raw" data-type="number" data-fmt="html" class="abs"></th>
+</tr>
+</thead>
+<tbody><tr>
+	<td class="file high" data-value="DebugTracing.js"><a href="DebugTracing.js.html">DebugTracing.js</a></td>
+	<td data-value="88.46" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 88%"></div><div class="cover-empty" style="width: 12%"></div></div>
+	</td>
+	<td data-value="88.46" class="pct high">88.46%</td>
+	<td data-value="104" class="abs high">92/104</td>
+	<td data-value="53.66" class="pct medium">53.66%</td>
+	<td data-value="82" class="abs medium">44/82</td>
+	<td data-value="88.89" class="pct high">88.89%</td>
+	<td data-value="18" class="abs high">16/18</td>
+	<td data-value="94.29" class="pct high">94.29%</td>
+	<td data-value="70" class="abs high">66/70</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="MaxInts.js"><a href="MaxInts.js.html">MaxInts.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactCapturedValue.js"><a href="ReactCapturedValue.js.html">ReactCapturedValue.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="4" class="abs high">4/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="1" class="abs high">1/1</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="3" class="abs high">3/3</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactChildFiber.new.js"><a href="ReactChildFiber.new.js.html">ReactChildFiber.new.js</a></td>
+	<td data-value="90.72" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 90%"></div><div class="cover-empty" style="width: 10%"></div></div>
+	</td>
+	<td data-value="90.72" class="pct high">90.72%</td>
+	<td data-value="582" class="abs high">528/582</td>
+	<td data-value="78.53" class="pct medium">78.53%</td>
+	<td data-value="489" class="abs medium">384/489</td>
+	<td data-value="96.97" class="pct high">96.97%</td>
+	<td data-value="33" class="abs high">32/33</td>
+	<td data-value="95.05" class="pct high">95.05%</td>
+	<td data-value="525" class="abs high">499/525</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactChildFiber.old.js"><a href="ReactChildFiber.old.js.html">ReactChildFiber.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="582" class="abs low">0/582</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="489" class="abs low">0/489</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="33" class="abs low">0/33</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="525" class="abs low">0/525</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactCurrentFiber.js"><a href="ReactCurrentFiber.js.html">ReactCurrentFiber.js</a></td>
+	<td data-value="87.5" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 87%"></div><div class="cover-empty" style="width: 13%"></div></div>
+	</td>
+	<td data-value="87.5" class="pct high">87.5%</td>
+	<td data-value="40" class="abs high">35/40</td>
+	<td data-value="58.33" class="pct medium">58.33%</td>
+	<td data-value="24" class="abs medium">14/24</td>
+	<td data-value="85.71" class="pct high">85.71%</td>
+	<td data-value="7" class="abs high">6/7</td>
+	<td data-value="82.76" class="pct high">82.76%</td>
+	<td data-value="29" class="abs high">24/29</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactEventPriorities.js"><a href="ReactEventPriorities.js.html">ReactEventPriorities.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="21" class="abs high">21/21</td>
+	<td data-value="75" class="pct medium">75%</td>
+	<td data-value="16" class="abs medium">12/16</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="4" class="abs high">4/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="16" class="abs high">16/16</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactEventPriorities.new.js"><a href="ReactEventPriorities.new.js.html">ReactEventPriorities.new.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="37" class="abs high">37/37</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="16" class="abs high">16/16</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="7" class="abs high">7/7</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="25" class="abs high">25/25</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactEventPriorities.old.js"><a href="ReactEventPriorities.old.js.html">ReactEventPriorities.old.js</a></td>
+	<td data-value="51.35" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 51%"></div><div class="cover-empty" style="width: 49%"></div></div>
+	</td>
+	<td data-value="51.35" class="pct medium">51.35%</td>
+	<td data-value="37" class="abs medium">19/37</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="7" class="abs low">0/7</td>
+	<td data-value="28" class="pct low">28%</td>
+	<td data-value="25" class="abs low">7/25</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiber.new.js"><a href="ReactFiber.new.js.html">ReactFiber.new.js</a></td>
+	<td data-value="96.09" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 96%"></div><div class="cover-empty" style="width: 4%"></div></div>
+	</td>
+	<td data-value="96.09" class="pct high">96.09%</td>
+	<td data-value="358" class="abs high">344/358</td>
+	<td data-value="80.89" class="pct high">80.89%</td>
+	<td data-value="157" class="abs high">127/157</td>
+	<td data-value="92.31" class="pct high">92.31%</td>
+	<td data-value="26" class="abs high">24/26</td>
+	<td data-value="95.82" class="pct high">95.82%</td>
+	<td data-value="335" class="abs high">321/335</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiber.old.js"><a href="ReactFiber.old.js.html">ReactFiber.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="358" class="abs low">0/358</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="157" class="abs low">0/157</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="26" class="abs low">0/26</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="335" class="abs low">0/335</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberAct.new.js"><a href="ReactFiberAct.new.js.html">ReactFiberAct.new.js</a></td>
+	<td data-value="89.47" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 89%"></div><div class="cover-empty" style="width: 11%"></div></div>
+	</td>
+	<td data-value="89.47" class="pct high">89.47%</td>
+	<td data-value="19" class="abs high">17/19</td>
+	<td data-value="84.21" class="pct high">84.21%</td>
+	<td data-value="19" class="abs high">16/19</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="3" class="abs high">3/3</td>
+	<td data-value="85.71" class="pct high">85.71%</td>
+	<td data-value="14" class="abs high">12/14</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberAct.old.js"><a href="ReactFiberAct.old.js.html">ReactFiberAct.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="19" class="abs low">0/19</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="19" class="abs low">0/19</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="3" class="abs low">0/3</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="14" class="abs low">0/14</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberBeginWork.new.js"><a href="ReactFiberBeginWork.new.js.html">ReactFiberBeginWork.new.js</a></td>
+	<td data-value="89.15" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 89%"></div><div class="cover-empty" style="width: 11%"></div></div>
+	</td>
+	<td data-value="89.15" class="pct high">89.15%</td>
+	<td data-value="1300" class="abs high">1159/1300</td>
+	<td data-value="77.95" class="pct medium">77.95%</td>
+	<td data-value="889" class="abs medium">693/889</td>
+	<td data-value="96.67" class="pct high">96.67%</td>
+	<td data-value="60" class="abs high">58/60</td>
+	<td data-value="90.63" class="pct high">90.63%</td>
+	<td data-value="1259" class="abs high">1141/1259</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberBeginWork.old.js"><a href="ReactFiberBeginWork.old.js.html">ReactFiberBeginWork.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1300" class="abs low">0/1300</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="889" class="abs low">0/889</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="60" class="abs low">0/60</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1259" class="abs low">0/1259</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberCacheComponent.new.js"><a href="ReactFiberCacheComponent.new.js.html">ReactFiberCacheComponent.new.js</a></td>
+	<td data-value="82.61" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 82%"></div><div class="cover-empty" style="width: 18%"></div></div>
+	</td>
+	<td data-value="82.61" class="pct high">82.61%</td>
+	<td data-value="69" class="abs high">57/69</td>
+	<td data-value="68.52" class="pct medium">68.52%</td>
+	<td data-value="54" class="abs medium">37/54</td>
+	<td data-value="88.89" class="pct high">88.89%</td>
+	<td data-value="9" class="abs high">8/9</td>
+	<td data-value="80.56" class="pct high">80.56%</td>
+	<td data-value="36" class="abs high">29/36</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberCacheComponent.old.js"><a href="ReactFiberCacheComponent.old.js.html">ReactFiberCacheComponent.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="69" class="abs low">0/69</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="54" class="abs low">0/54</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="9" class="abs low">0/9</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="36" class="abs low">0/36</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberClassComponent.new.js"><a href="ReactFiberClassComponent.new.js.html">ReactFiberClassComponent.new.js</a></td>
+	<td data-value="93.79" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 93%"></div><div class="cover-empty" style="width: 7%"></div></div>
+	</td>
+	<td data-value="93.79" class="pct high">93.79%</td>
+	<td data-value="483" class="abs high">453/483</td>
+	<td data-value="83.23" class="pct high">83.23%</td>
+	<td data-value="507" class="abs high">422/507</td>
+	<td data-value="95" class="pct high">95%</td>
+	<td data-value="20" class="abs high">19/20</td>
+	<td data-value="94.43" class="pct high">94.43%</td>
+	<td data-value="449" class="abs high">424/449</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberClassComponent.old.js"><a href="ReactFiberClassComponent.old.js.html">ReactFiberClassComponent.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="483" class="abs low">0/483</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="507" class="abs low">0/507</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="20" class="abs low">0/20</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="449" class="abs low">0/449</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberCommitWork.new.js"><a href="ReactFiberCommitWork.new.js.html">ReactFiberCommitWork.new.js</a></td>
+	<td data-value="87.73" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 87%"></div><div class="cover-empty" style="width: 13%"></div></div>
+	</td>
+	<td data-value="87.73" class="pct high">87.73%</td>
+	<td data-value="1418" class="abs high">1244/1418</td>
+	<td data-value="75.94" class="pct medium">75.94%</td>
+	<td data-value="1139" class="abs medium">865/1139</td>
+	<td data-value="98.61" class="pct high">98.61%</td>
+	<td data-value="72" class="abs high">71/72</td>
+	<td data-value="92.45" class="pct high">92.45%</td>
+	<td data-value="1245" class="abs high">1151/1245</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberCommitWork.old.js"><a href="ReactFiberCommitWork.old.js.html">ReactFiberCommitWork.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1418" class="abs low">0/1418</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1139" class="abs low">0/1139</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="72" class="abs low">0/72</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1245" class="abs low">0/1245</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberCompleteWork.new.js"><a href="ReactFiberCompleteWork.new.js.html">ReactFiberCompleteWork.new.js</a></td>
+	<td data-value="83.84" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 83%"></div><div class="cover-empty" style="width: 17%"></div></div>
+	</td>
+	<td data-value="83.84" class="pct high">83.84%</td>
+	<td data-value="631" class="abs high">529/631</td>
+	<td data-value="76.48" class="pct medium">76.48%</td>
+	<td data-value="489" class="abs medium">374/489</td>
+	<td data-value="78.95" class="pct medium">78.95%</td>
+	<td data-value="19" class="abs medium">15/19</td>
+	<td data-value="87.2" class="pct high">87.2%</td>
+	<td data-value="578" class="abs high">504/578</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberCompleteWork.old.js"><a href="ReactFiberCompleteWork.old.js.html">ReactFiberCompleteWork.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="631" class="abs low">0/631</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="489" class="abs low">0/489</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="19" class="abs low">0/19</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="578" class="abs low">0/578</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberComponentStack.js"><a href="ReactFiberComponentStack.js.html">ReactFiberComponentStack.js</a></td>
+	<td data-value="92.59" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 92%"></div><div class="cover-empty" style="width: 8%"></div></div>
+	</td>
+	<td data-value="92.59" class="pct high">92.59%</td>
+	<td data-value="27" class="abs high">25/27</td>
+	<td data-value="77.27" class="pct medium">77.27%</td>
+	<td data-value="22" class="abs medium">17/22</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="22" class="abs high">22/22</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberContext.new.js"><a href="ReactFiberContext.new.js.html">ReactFiberContext.new.js</a></td>
+	<td data-value="88.49" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 88%"></div><div class="cover-empty" style="width: 12%"></div></div>
+	</td>
+	<td data-value="88.49" class="pct high">88.49%</td>
+	<td data-value="139" class="abs high">123/139</td>
+	<td data-value="74.16" class="pct medium">74.16%</td>
+	<td data-value="89" class="abs medium">66/89</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="13" class="abs high">13/13</td>
+	<td data-value="88.24" class="pct high">88.24%</td>
+	<td data-value="119" class="abs high">105/119</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberContext.old.js"><a href="ReactFiberContext.old.js.html">ReactFiberContext.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="139" class="abs low">0/139</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="89" class="abs low">0/89</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="13" class="abs low">0/13</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="119" class="abs low">0/119</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberDevToolsHook.new.js"><a href="ReactFiberDevToolsHook.new.js.html">ReactFiberDevToolsHook.new.js</a></td>
+	<td data-value="61.84" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 61%"></div><div class="cover-empty" style="width: 39%"></div></div>
+	</td>
+	<td data-value="61.84" class="pct medium">61.84%</td>
+	<td data-value="207" class="abs medium">128/207</td>
+	<td data-value="46.15" class="pct low">46.15%</td>
+	<td data-value="221" class="abs low">102/221</td>
+	<td data-value="93.75" class="pct high">93.75%</td>
+	<td data-value="32" class="abs high">30/32</td>
+	<td data-value="54.04" class="pct medium">54.04%</td>
+	<td data-value="161" class="abs medium">87/161</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberDevToolsHook.old.js"><a href="ReactFiberDevToolsHook.old.js.html">ReactFiberDevToolsHook.old.js</a></td>
+	<td data-value="21.74" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 21%"></div><div class="cover-empty" style="width: 79%"></div></div>
+	</td>
+	<td data-value="21.74" class="pct low">21.74%</td>
+	<td data-value="207" class="abs low">45/207</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="221" class="abs low">0/221</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="32" class="abs low">0/32</td>
+	<td data-value="2.48" class="pct low">2.48%</td>
+	<td data-value="161" class="abs low">4/161</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberErrorDialog.js"><a href="ReactFiberErrorDialog.js.html">ReactFiberErrorDialog.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="3" class="abs high">3/3</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="1" class="abs high">1/1</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberErrorLogger.js"><a href="ReactFiberErrorLogger.js.html">ReactFiberErrorLogger.js</a></td>
+	<td data-value="83.87" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 83%"></div><div class="cover-empty" style="width: 17%"></div></div>
+	</td>
+	<td data-value="83.87" class="pct high">83.87%</td>
+	<td data-value="31" class="abs high">26/31</td>
+	<td data-value="62.5" class="pct medium">62.5%</td>
+	<td data-value="24" class="abs medium">15/24</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="3" class="abs high">3/3</td>
+	<td data-value="82.14" class="pct high">82.14%</td>
+	<td data-value="28" class="abs high">23/28</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberFlags.js"><a href="ReactFiberFlags.js.html">ReactFiberFlags.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="75" class="abs high">75/75</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="40" class="abs high">40/40</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberHooks.new.js"><a href="ReactFiberHooks.new.js.html">ReactFiberHooks.new.js</a></td>
+	<td data-value="75.48" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 75%"></div><div class="cover-empty" style="width: 25%"></div></div>
+	</td>
+	<td data-value="75.48" class="pct medium">75.48%</td>
+	<td data-value="1444" class="abs medium">1090/1444</td>
+	<td data-value="77.67" class="pct medium">77.67%</td>
+	<td data-value="533" class="abs medium">414/533</td>
+	<td data-value="66.98" class="pct medium">66.98%</td>
+	<td data-value="215" class="abs medium">144/215</td>
+	<td data-value="75.92" class="pct medium">75.92%</td>
+	<td data-value="1387" class="abs medium">1053/1387</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberHooks.old.js"><a href="ReactFiberHooks.old.js.html">ReactFiberHooks.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1444" class="abs low">0/1444</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="533" class="abs low">0/533</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="215" class="abs low">0/215</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1387" class="abs low">0/1387</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberHostConfig.js"><a href="ReactFiberHostConfig.js.html">ReactFiberHostConfig.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostConfigWithNoHydration.js"><a href="ReactFiberHostConfigWithNoHydration.js.html">ReactFiberHostConfigWithNoHydration.js</a></td>
+	<td data-value="98.63" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 98%"></div><div class="cover-empty" style="width: 2%"></div></div>
+	</td>
+	<td data-value="98.63" class="pct high">98.63%</td>
+	<td data-value="73" class="abs high">72/73</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="97.3" class="pct high">97.3%</td>
+	<td data-value="37" class="abs high">36/37</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostConfigWithNoMicrotasks.js"><a href="ReactFiberHostConfigWithNoMicrotasks.js.html">ReactFiberHostConfigWithNoMicrotasks.js</a></td>
+	<td data-value="85.71" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 85%"></div><div class="cover-empty" style="width: 15%"></div></div>
+	</td>
+	<td data-value="85.71" class="pct high">85.71%</td>
+	<td data-value="7" class="abs high">6/7</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="75" class="pct medium">75%</td>
+	<td data-value="4" class="abs medium">3/4</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostConfigWithNoMutation.js"><a href="ReactFiberHostConfigWithNoMutation.js.html">ReactFiberHostConfigWithNoMutation.js</a></td>
+	<td data-value="97.14" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 97%"></div><div class="cover-empty" style="width: 3%"></div></div>
+	</td>
+	<td data-value="97.14" class="pct high">97.14%</td>
+	<td data-value="35" class="abs high">34/35</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="94.44" class="pct high">94.44%</td>
+	<td data-value="18" class="abs high">17/18</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostConfigWithNoPersistence.js"><a href="ReactFiberHostConfigWithNoPersistence.js.html">ReactFiberHostConfigWithNoPersistence.js</a></td>
+	<td data-value="95.65" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 95%"></div><div class="cover-empty" style="width: 5%"></div></div>
+	</td>
+	<td data-value="95.65" class="pct high">95.65%</td>
+	<td data-value="23" class="abs high">22/23</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="91.67" class="pct high">91.67%</td>
+	<td data-value="12" class="abs high">11/12</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostConfigWithNoScopes.js"><a href="ReactFiberHostConfigWithNoScopes.js.html">ReactFiberHostConfigWithNoScopes.js</a></td>
+	<td data-value="85.71" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 85%"></div><div class="cover-empty" style="width: 15%"></div></div>
+	</td>
+	<td data-value="85.71" class="pct high">85.71%</td>
+	<td data-value="7" class="abs high">6/7</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="75" class="pct medium">75%</td>
+	<td data-value="4" class="abs medium">3/4</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostConfigWithNoTestSelectors.js"><a href="ReactFiberHostConfigWithNoTestSelectors.js.html">ReactFiberHostConfigWithNoTestSelectors.js</a></td>
+	<td data-value="94.74" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 94%"></div><div class="cover-empty" style="width: 6%"></div></div>
+	</td>
+	<td data-value="94.74" class="pct high">94.74%</td>
+	<td data-value="19" class="abs high">18/19</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="90" class="pct high">90%</td>
+	<td data-value="10" class="abs high">9/10</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHostContext.new.js"><a href="ReactFiberHostContext.new.js.html">ReactFiberHostContext.new.js</a></td>
+	<td data-value="97.5" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 97%"></div><div class="cover-empty" style="width: 3%"></div></div>
+	</td>
+	<td data-value="97.5" class="pct high">97.5%</td>
+	<td data-value="40" class="abs high">39/40</td>
+	<td data-value="83.33" class="pct high">83.33%</td>
+	<td data-value="6" class="abs high">5/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="7" class="abs high">7/7</td>
+	<td data-value="96.97" class="pct high">96.97%</td>
+	<td data-value="33" class="abs high">32/33</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberHostContext.old.js"><a href="ReactFiberHostContext.old.js.html">ReactFiberHostContext.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="40" class="abs low">0/40</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="7" class="abs low">0/7</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="33" class="abs low">0/33</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberHotReloading.js"><a href="ReactFiberHotReloading.js.html">ReactFiberHotReloading.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="23" class="abs low">0/23</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="18" class="abs low">0/18</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="22" class="abs low">0/22</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHotReloading.new.js"><a href="ReactFiberHotReloading.new.js.html">ReactFiberHotReloading.new.js</a></td>
+	<td data-value="86.7" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 86%"></div><div class="cover-empty" style="width: 14%"></div></div>
+	</td>
+	<td data-value="86.7" class="pct high">86.7%</td>
+	<td data-value="218" class="abs high">189/218</td>
+	<td data-value="78.11" class="pct medium">78.11%</td>
+	<td data-value="169" class="abs medium">132/169</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="16" class="abs high">16/16</td>
+	<td data-value="87.96" class="pct high">87.96%</td>
+	<td data-value="191" class="abs high">168/191</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberHotReloading.old.js"><a href="ReactFiberHotReloading.old.js.html">ReactFiberHotReloading.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="218" class="abs low">0/218</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="169" class="abs low">0/169</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="191" class="abs low">0/191</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberHydrationContext.new.js"><a href="ReactFiberHydrationContext.new.js.html">ReactFiberHydrationContext.new.js</a></td>
+	<td data-value="90.61" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 90%"></div><div class="cover-empty" style="width: 10%"></div></div>
+	</td>
+	<td data-value="90.61" class="pct high">90.61%</td>
+	<td data-value="277" class="abs high">251/277</td>
+	<td data-value="76.22" class="pct medium">76.22%</td>
+	<td data-value="143" class="abs medium">109/143</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="24" class="abs high">24/24</td>
+	<td data-value="92" class="pct high">92%</td>
+	<td data-value="250" class="abs high">230/250</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberHydrationContext.old.js"><a href="ReactFiberHydrationContext.old.js.html">ReactFiberHydrationContext.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="277" class="abs low">0/277</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="143" class="abs low">0/143</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="24" class="abs low">0/24</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="250" class="abs low">0/250</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberInterleavedUpdates.new.js"><a href="ReactFiberInterleavedUpdates.new.js.html">ReactFiberInterleavedUpdates.new.js</a></td>
+	<td data-value="92.31" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 92%"></div><div class="cover-empty" style="width: 8%"></div></div>
+	</td>
+	<td data-value="92.31" class="pct high">92.31%</td>
+	<td data-value="26" class="abs high">24/26</td>
+	<td data-value="71.43" class="pct medium">71.43%</td>
+	<td data-value="14" class="abs medium">10/14</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="19" class="abs high">19/19</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberInterleavedUpdates.old.js"><a href="ReactFiberInterleavedUpdates.old.js.html">ReactFiberInterleavedUpdates.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="26" class="abs low">0/26</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="14" class="abs low">0/14</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="19" class="abs low">0/19</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberLane.new.js"><a href="ReactFiberLane.new.js.html">ReactFiberLane.new.js</a></td>
+	<td data-value="75.95" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 75%"></div><div class="cover-empty" style="width: 25%"></div></div>
+	</td>
+	<td data-value="75.95" class="pct medium">75.95%</td>
+	<td data-value="420" class="abs medium">319/420</td>
+	<td data-value="64.52" class="pct medium">64.52%</td>
+	<td data-value="279" class="abs medium">180/279</td>
+	<td data-value="90.7" class="pct high">90.7%</td>
+	<td data-value="43" class="abs high">39/43</td>
+	<td data-value="76.67" class="pct medium">76.67%</td>
+	<td data-value="330" class="abs medium">253/330</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberLane.old.js"><a href="ReactFiberLane.old.js.html">ReactFiberLane.old.js</a></td>
+	<td data-value="23.57" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 23%"></div><div class="cover-empty" style="width: 77%"></div></div>
+	</td>
+	<td data-value="23.57" class="pct low">23.57%</td>
+	<td data-value="420" class="abs low">99/420</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="279" class="abs low">0/279</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="43" class="abs low">0/43</td>
+	<td data-value="13.33" class="pct low">13.33%</td>
+	<td data-value="330" class="abs low">44/330</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberLazyComponent.new.js"><a href="ReactFiberLazyComponent.new.js.html">ReactFiberLazyComponent.new.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="12" class="abs high">12/12</td>
+	<td data-value="90" class="pct high">90%</td>
+	<td data-value="10" class="abs high">9/10</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="7" class="abs high">7/7</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberLazyComponent.old.js"><a href="ReactFiberLazyComponent.old.js.html">ReactFiberLazyComponent.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">0/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="10" class="abs low">0/10</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="7" class="abs low">0/7</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberNewContext.new.js"><a href="ReactFiberNewContext.new.js.html">ReactFiberNewContext.new.js</a></td>
+	<td data-value="67.31" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 67%"></div><div class="cover-empty" style="width: 33%"></div></div>
+	</td>
+	<td data-value="67.31" class="pct medium">67.31%</td>
+	<td data-value="309" class="abs medium">208/309</td>
+	<td data-value="54.95" class="pct medium">54.95%</td>
+	<td data-value="222" class="abs medium">122/222</td>
+	<td data-value="93.75" class="pct high">93.75%</td>
+	<td data-value="16" class="abs high">15/16</td>
+	<td data-value="70.16" class="pct medium">70.16%</td>
+	<td data-value="258" class="abs medium">181/258</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberNewContext.old.js"><a href="ReactFiberNewContext.old.js.html">ReactFiberNewContext.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="309" class="abs low">0/309</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="222" class="abs low">0/222</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="258" class="abs low">0/258</td>
+	</tr>
+
+<tr>
+	<td class="file empty" data-value="ReactFiberOffscreenComponent.js"><a href="ReactFiberOffscreenComponent.js.html">ReactFiberOffscreenComponent.js</a></td>
+	<td data-value="0" class="pic empty">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberReconciler.js"><a href="ReactFiberReconciler.js.html">ReactFiberReconciler.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="75" class="abs low">0/75</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="70" class="abs low">0/70</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="72" class="abs low">0/72</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberReconciler.new.js"><a href="ReactFiberReconciler.new.js.html">ReactFiberReconciler.new.js</a></td>
+	<td data-value="72.73" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 72%"></div><div class="cover-empty" style="width: 28%"></div></div>
+	</td>
+	<td data-value="72.73" class="pct medium">72.73%</td>
+	<td data-value="341" class="abs medium">248/341</td>
+	<td data-value="50.34" class="pct medium">50.34%</td>
+	<td data-value="145" class="abs medium">73/145</td>
+	<td data-value="72.13" class="pct medium">72.13%</td>
+	<td data-value="61" class="abs medium">44/61</td>
+	<td data-value="69.12" class="pct medium">69.12%</td>
+	<td data-value="272" class="abs medium">188/272</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberReconciler.old.js"><a href="ReactFiberReconciler.old.js.html">ReactFiberReconciler.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="341" class="abs low">0/341</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="145" class="abs low">0/145</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="61" class="abs low">0/61</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="272" class="abs low">0/272</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberRoot.new.js"><a href="ReactFiberRoot.new.js.html">ReactFiberRoot.new.js</a></td>
+	<td data-value="86.36" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 86%"></div><div class="cover-empty" style="width: 14%"></div></div>
+	</td>
+	<td data-value="86.36" class="pct high">86.36%</td>
+	<td data-value="88" class="abs high">76/88</td>
+	<td data-value="67.5" class="pct medium">67.5%</td>
+	<td data-value="40" class="abs medium">27/40</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="93.51" class="pct high">93.51%</td>
+	<td data-value="77" class="abs high">72/77</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberRoot.old.js"><a href="ReactFiberRoot.old.js.html">ReactFiberRoot.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="88" class="abs low">0/88</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="40" class="abs low">0/40</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="77" class="abs low">0/77</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberScope.new.js"><a href="ReactFiberScope.new.js.html">ReactFiberScope.new.js</a></td>
+	<td data-value="74.04" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 74%"></div><div class="cover-empty" style="width: 26%"></div></div>
+	</td>
+	<td data-value="74.04" class="pct medium">74.04%</td>
+	<td data-value="104" class="abs medium">77/104</td>
+	<td data-value="56.41" class="pct medium">56.41%</td>
+	<td data-value="78" class="abs medium">44/78</td>
+	<td data-value="91.67" class="pct high">91.67%</td>
+	<td data-value="12" class="abs high">11/12</td>
+	<td data-value="79.07" class="pct medium">79.07%</td>
+	<td data-value="86" class="abs medium">68/86</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberScope.old.js"><a href="ReactFiberScope.old.js.html">ReactFiberScope.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="104" class="abs low">0/104</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="78" class="abs low">0/78</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">0/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="86" class="abs low">0/86</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberStack.new.js"><a href="ReactFiberStack.new.js.html">ReactFiberStack.new.js</a></td>
+	<td data-value="68.42" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 68%"></div><div class="cover-empty" style="width: 32%"></div></div>
+	</td>
+	<td data-value="68.42" class="pct medium">68.42%</td>
+	<td data-value="38" class="abs medium">26/38</td>
+	<td data-value="30" class="pct low">30%</td>
+	<td data-value="20" class="abs low">6/20</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="6" class="abs medium">3/6</td>
+	<td data-value="61.29" class="pct medium">61.29%</td>
+	<td data-value="31" class="abs medium">19/31</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberStack.old.js"><a href="ReactFiberStack.old.js.html">ReactFiberStack.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="38" class="abs low">0/38</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="20" class="abs low">0/20</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="31" class="abs low">0/31</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberSuspenseComponent.new.js"><a href="ReactFiberSuspenseComponent.new.js.html">ReactFiberSuspenseComponent.new.js</a></td>
+	<td data-value="90.2" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 90%"></div><div class="cover-empty" style="width: 10%"></div></div>
+	</td>
+	<td data-value="90.2" class="pct high">90.2%</td>
+	<td data-value="51" class="abs high">46/51</td>
+	<td data-value="86.67" class="pct high">86.67%</td>
+	<td data-value="45" class="abs high">39/45</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="97.62" class="pct high">97.62%</td>
+	<td data-value="42" class="abs high">41/42</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberSuspenseComponent.old.js"><a href="ReactFiberSuspenseComponent.old.js.html">ReactFiberSuspenseComponent.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="51" class="abs low">0/51</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="45" class="abs low">0/45</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="42" class="abs low">0/42</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberSuspenseContext.new.js"><a href="ReactFiberSuspenseContext.new.js.html">ReactFiberSuspenseContext.new.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="23" class="abs high">23/23</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="6" class="abs high">6/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="14" class="abs high">14/14</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberSuspenseContext.old.js"><a href="ReactFiberSuspenseContext.old.js.html">ReactFiberSuspenseContext.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="23" class="abs low">0/23</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="14" class="abs low">0/14</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberSyncTaskQueue.new.js"><a href="ReactFiberSyncTaskQueue.new.js.html">ReactFiberSyncTaskQueue.new.js</a></td>
+	<td data-value="91.3" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 91%"></div><div class="cover-empty" style="width: 9%"></div></div>
+	</td>
+	<td data-value="91.3" class="pct high">91.3%</td>
+	<td data-value="46" class="abs high">42/46</td>
+	<td data-value="68.18" class="pct medium">68.18%</td>
+	<td data-value="22" class="abs medium">15/22</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="4" class="abs high">4/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="32" class="abs high">32/32</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberSyncTaskQueue.old.js"><a href="ReactFiberSyncTaskQueue.old.js.html">ReactFiberSyncTaskQueue.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="46" class="abs low">0/46</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="22" class="abs low">0/22</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="4" class="abs low">0/4</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="32" class="abs low">0/32</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberThrow.new.js"><a href="ReactFiberThrow.new.js.html">ReactFiberThrow.new.js</a></td>
+	<td data-value="92.93" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 92%"></div><div class="cover-empty" style="width: 8%"></div></div>
+	</td>
+	<td data-value="92.93" class="pct high">92.93%</td>
+	<td data-value="198" class="abs high">184/198</td>
+	<td data-value="79.2" class="pct medium">79.2%</td>
+	<td data-value="125" class="abs medium">99/125</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="13" class="abs high">13/13</td>
+	<td data-value="94.65" class="pct high">94.65%</td>
+	<td data-value="187" class="abs high">177/187</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberThrow.old.js"><a href="ReactFiberThrow.old.js.html">ReactFiberThrow.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="198" class="abs low">0/198</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="125" class="abs low">0/125</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="13" class="abs low">0/13</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="187" class="abs low">0/187</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberTracingMarkerComponent.new.js"><a href="ReactFiberTracingMarkerComponent.new.js.html">ReactFiberTracingMarkerComponent.new.js</a></td>
+	<td data-value="40" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 40%"></div><div class="cover-empty" style="width: 60%"></div></div>
+	</td>
+	<td data-value="40" class="pct low">40%</td>
+	<td data-value="20" class="abs low">8/20</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">0/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="3" class="abs low">0/3</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="16" class="abs low">4/16</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberTracingMarkerComponent.old.js"><a href="ReactFiberTracingMarkerComponent.old.js.html">ReactFiberTracingMarkerComponent.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="20" class="abs low">0/20</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">0/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="3" class="abs low">0/3</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="16" class="abs low">0/16</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberTransition.js"><a href="ReactFiberTransition.js.html">ReactFiberTransition.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="9" class="abs high">9/9</td>
+	<td data-value="75" class="pct medium">75%</td>
+	<td data-value="4" class="abs medium">3/4</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="4" class="abs high">4/4</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberTransition.new.js"><a href="ReactFiberTransition.new.js.html">ReactFiberTransition.new.js</a></td>
+	<td data-value="92.59" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 92%"></div><div class="cover-empty" style="width: 8%"></div></div>
+	</td>
+	<td data-value="92.59" class="pct high">92.59%</td>
+	<td data-value="54" class="abs high">50/54</td>
+	<td data-value="63.33" class="pct medium">63.33%</td>
+	<td data-value="30" class="abs medium">19/30</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="8" class="abs high">8/8</td>
+	<td data-value="91.49" class="pct high">91.49%</td>
+	<td data-value="47" class="abs high">43/47</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberTransition.old.js"><a href="ReactFiberTransition.old.js.html">ReactFiberTransition.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="54" class="abs low">0/54</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="30" class="abs low">0/30</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">0/8</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="47" class="abs low">0/47</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberTransitionPool.old.js"><a href="ReactFiberTransitionPool.old.js.html">ReactFiberTransitionPool.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="54" class="abs low">0/54</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="30" class="abs low">0/30</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="8" class="abs low">0/8</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="47" class="abs low">0/47</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberTreeContext.new.js"><a href="ReactFiberTreeContext.new.js.html">ReactFiberTreeContext.new.js</a></td>
+	<td data-value="95.33" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 95%"></div><div class="cover-empty" style="width: 5%"></div></div>
+	</td>
+	<td data-value="95.33" class="pct high">95.33%</td>
+	<td data-value="107" class="abs high">102/107</td>
+	<td data-value="59.09" class="pct medium">59.09%</td>
+	<td data-value="22" class="abs medium">13/22</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="12" class="abs high">12/12</td>
+	<td data-value="98.48" class="pct high">98.48%</td>
+	<td data-value="66" class="abs high">65/66</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberTreeContext.old.js"><a href="ReactFiberTreeContext.old.js.html">ReactFiberTreeContext.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="107" class="abs low">0/107</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="22" class="abs low">0/22</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="12" class="abs low">0/12</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="66" class="abs low">0/66</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="ReactFiberTreeReflection.js"><a href="ReactFiberTreeReflection.js.html">ReactFiberTreeReflection.js</a></td>
+	<td data-value="60.61" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 60%"></div><div class="cover-empty" style="width: 40%"></div></div>
+	</td>
+	<td data-value="60.61" class="pct medium">60.61%</td>
+	<td data-value="198" class="abs medium">120/198</td>
+	<td data-value="52.32" class="pct medium">52.32%</td>
+	<td data-value="151" class="abs medium">79/151</td>
+	<td data-value="92.86" class="pct high">92.86%</td>
+	<td data-value="14" class="abs high">13/14</td>
+	<td data-value="64.05" class="pct medium">64.05%</td>
+	<td data-value="153" class="abs medium">98/153</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberUnwindWork.new.js"><a href="ReactFiberUnwindWork.new.js.html">ReactFiberUnwindWork.new.js</a></td>
+	<td data-value="91.07" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 91%"></div><div class="cover-empty" style="width: 9%"></div></div>
+	</td>
+	<td data-value="91.07" class="pct high">91.07%</td>
+	<td data-value="112" class="abs high">102/112</td>
+	<td data-value="82.35" class="pct high">82.35%</td>
+	<td data-value="68" class="abs high">56/68</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="2" class="abs high">2/2</td>
+	<td data-value="90.91" class="pct high">90.91%</td>
+	<td data-value="110" class="abs high">100/110</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberUnwindWork.old.js"><a href="ReactFiberUnwindWork.old.js.html">ReactFiberUnwindWork.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="112" class="abs low">0/112</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="68" class="abs low">0/68</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="2" class="abs low">0/2</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="110" class="abs low">0/110</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactFiberWorkLoop.new.js"><a href="ReactFiberWorkLoop.new.js.html">ReactFiberWorkLoop.new.js</a></td>
+	<td data-value="89.99" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 89%"></div><div class="cover-empty" style="width: 11%"></div></div>
+	</td>
+	<td data-value="89.99" class="pct high">89.99%</td>
+	<td data-value="1249" class="abs high">1124/1249</td>
+	<td data-value="76.38" class="pct medium">76.38%</td>
+	<td data-value="872" class="abs medium">666/872</td>
+	<td data-value="91.57" class="pct high">91.57%</td>
+	<td data-value="83" class="abs high">76/83</td>
+	<td data-value="92.25" class="pct high">92.25%</td>
+	<td data-value="1136" class="abs high">1048/1136</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactFiberWorkLoop.old.js"><a href="ReactFiberWorkLoop.old.js.html">ReactFiberWorkLoop.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1249" class="abs low">0/1249</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="872" class="abs low">0/872</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="83" class="abs low">0/83</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1136" class="abs low">0/1136</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactHookEffectTags.js"><a href="ReactHookEffectTags.js.html">ReactHookEffectTags.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="12" class="abs high">12/12</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="6" class="abs high">6/6</td>
+	</tr>
+
+<tr>
+	<td class="file empty" data-value="ReactInternalTypes.js"><a href="ReactInternalTypes.js.html">ReactInternalTypes.js</a></td>
+	<td data-value="0" class="pic empty">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	<td data-value="0" class="pct empty">0%</td>
+	<td data-value="0" class="abs empty">0/0</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactMutableSource.new.js"><a href="ReactMutableSource.new.js.html">ReactMutableSource.new.js</a></td>
+	<td data-value="80.43" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 80%"></div><div class="cover-empty" style="width: 20%"></div></div>
+	</td>
+	<td data-value="80.43" class="pct high">80.43%</td>
+	<td data-value="46" class="abs high">37/46</td>
+	<td data-value="64.29" class="pct medium">64.29%</td>
+	<td data-value="28" class="abs medium">18/28</td>
+	<td data-value="83.33" class="pct high">83.33%</td>
+	<td data-value="6" class="abs high">5/6</td>
+	<td data-value="79.41" class="pct medium">79.41%</td>
+	<td data-value="34" class="abs medium">27/34</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactMutableSource.old.js"><a href="ReactMutableSource.old.js.html">ReactMutableSource.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="46" class="abs low">0/46</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="28" class="abs low">0/28</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="6" class="abs low">0/6</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="34" class="abs low">0/34</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactPortal.js"><a href="ReactPortal.js.html">ReactPortal.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="8" class="abs high">8/8</td>
+	<td data-value="62.5" class="pct medium">62.5%</td>
+	<td data-value="8" class="abs medium">5/8</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="1" class="abs high">1/1</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="7" class="abs high">7/7</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactProfilerTimer.new.js"><a href="ReactProfilerTimer.new.js.html">ReactProfilerTimer.new.js</a></td>
+	<td data-value="85.71" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 85%"></div><div class="cover-empty" style="width: 15%"></div></div>
+	</td>
+	<td data-value="85.71" class="pct high">85.71%</td>
+	<td data-value="133" class="abs high">114/133</td>
+	<td data-value="65.96" class="pct medium">65.96%</td>
+	<td data-value="94" class="abs medium">62/94</td>
+	<td data-value="94.12" class="pct high">94.12%</td>
+	<td data-value="17" class="abs high">16/17</td>
+	<td data-value="90.36" class="pct high">90.36%</td>
+	<td data-value="83" class="abs high">75/83</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactProfilerTimer.old.js"><a href="ReactProfilerTimer.old.js.html">ReactProfilerTimer.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="133" class="abs low">0/133</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="94" class="abs low">0/94</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="17" class="abs low">0/17</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="83" class="abs low">0/83</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactReconcilerConstants.js"><a href="ReactReconcilerConstants.js.html">ReactReconcilerConstants.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="15" class="abs high">15/15</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="6" class="abs high">6/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="3" class="abs high">3/3</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactRootTags.js"><a href="ReactRootTags.js.html">ReactRootTags.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="6" class="abs high">6/6</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="3" class="abs high">3/3</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactStrictModeWarnings.new.js"><a href="ReactStrictModeWarnings.new.js.html">ReactStrictModeWarnings.new.js</a></td>
+	<td data-value="95.77" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 95%"></div><div class="cover-empty" style="width: 5%"></div></div>
+	</td>
+	<td data-value="95.77" class="pct high">95.77%</td>
+	<td data-value="142" class="abs high">136/142</td>
+	<td data-value="86.96" class="pct high">86.96%</td>
+	<td data-value="92" class="abs high">80/92</td>
+	<td data-value="77.27" class="pct medium">77.27%</td>
+	<td data-value="22" class="abs medium">17/22</td>
+	<td data-value="97.01" class="pct high">97.01%</td>
+	<td data-value="134" class="abs high">130/134</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactStrictModeWarnings.old.js"><a href="ReactStrictModeWarnings.old.js.html">ReactStrictModeWarnings.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="142" class="abs low">0/142</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="92" class="abs low">0/92</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="22" class="abs low">0/22</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="134" class="abs low">0/134</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactTestSelectors.js"><a href="ReactTestSelectors.js.html">ReactTestSelectors.js</a></td>
+	<td data-value="85.67" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 85%"></div><div class="cover-empty" style="width: 15%"></div></div>
+	</td>
+	<td data-value="85.67" class="pct high">85.67%</td>
+	<td data-value="307" class="abs high">263/307</td>
+	<td data-value="70.43" class="pct medium">70.43%</td>
+	<td data-value="230" class="abs medium">162/230</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="22" class="abs high">22/22</td>
+	<td data-value="94.89" class="pct high">94.89%</td>
+	<td data-value="235" class="abs high">223/235</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactTypeOfMode.js"><a href="ReactTypeOfMode.js.html">ReactTypeOfMode.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="16" class="abs high">16/16</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="8" class="abs high">8/8</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactUpdateQueue.new.js"><a href="ReactUpdateQueue.new.js.html">ReactUpdateQueue.new.js</a></td>
+	<td data-value="92.61" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 92%"></div><div class="cover-empty" style="width: 8%"></div></div>
+	</td>
+	<td data-value="92.61" class="pct high">92.61%</td>
+	<td data-value="257" class="abs high">238/257</td>
+	<td data-value="79.1" class="pct medium">79.1%</td>
+	<td data-value="134" class="abs medium">106/134</td>
+	<td data-value="92.86" class="pct high">92.86%</td>
+	<td data-value="14" class="abs high">13/14</td>
+	<td data-value="95.17" class="pct high">95.17%</td>
+	<td data-value="207" class="abs high">197/207</td>
+	</tr>
+
+<tr>
+	<td class="file low" data-value="ReactUpdateQueue.old.js"><a href="ReactUpdateQueue.old.js.html">ReactUpdateQueue.old.js</a></td>
+	<td data-value="0" class="pic low">
+	<div class="chart"><div class="cover-fill" style="width: 0%"></div><div class="cover-empty" style="width: 100%"></div></div>
+	</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="257" class="abs low">0/257</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="134" class="abs low">0/134</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="14" class="abs low">0/14</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="207" class="abs low">0/207</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="ReactWorkTags.js"><a href="ReactWorkTags.js.html">ReactWorkTags.js</a></td>
+	<td data-value="100" class="pic high">
+	<div class="chart"><div class="cover-fill cover-full" style="width: 100%"></div><div class="cover-empty" style="width: 0%"></div></div>
+	</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="52" class="abs high">52/52</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="0" class="abs high">0/0</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="26" class="abs high">26/26</td>
+	</tr>
+
+<tr>
+	<td class="file high" data-value="Scheduler.js"><a href="Scheduler.js.html">Scheduler.js</a></td>
+	<td data-value="90.74" class="pic high">
+	<div class="chart"><div class="cover-fill" style="width: 90%"></div><div class="cover-empty" style="width: 10%"></div></div>
+	</td>
+	<td data-value="90.74" class="pct high">90.74%</td>
+	<td data-value="54" class="abs high">49/54</td>
+	<td data-value="71.43" class="pct medium">71.43%</td>
+	<td data-value="28" class="abs medium">20/28</td>
+	<td data-value="66.67" class="pct medium">66.67%</td>
+	<td data-value="3" class="abs medium">2/3</td>
+	<td data-value="100" class="pct high">100%</td>
+	<td data-value="7" class="abs high">7/7</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="clz32.js"><a href="clz32.js.html">clz32.js</a></td>
+	<td data-value="60" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 60%"></div><div class="cover-empty" style="width: 40%"></div></div>
+	</td>
+	<td data-value="60" class="pct medium">60%</td>
+	<td data-value="10" class="abs medium">6/10</td>
+	<td data-value="25" class="pct low">25%</td>
+	<td data-value="4" class="abs low">1/4</td>
+	<td data-value="0" class="pct low">0%</td>
+	<td data-value="1" class="abs low">0/1</td>
+	<td data-value="50" class="pct medium">50%</td>
+	<td data-value="8" class="abs medium">4/8</td>
+	</tr>
+
+<tr>
+	<td class="file medium" data-value="getComponentNameFromFiber.js"><a href="getComponentNameFromFiber.js.html">getComponentNameFromFiber.js</a></td>
+	<td data-value="60.47" class="pic medium">
+	<div class="chart"><div class="cover-fill" style="width: 60%"></div><div class="cover-empty" style="width: 40%"></div></div>
+	</td>
+	<td data-value="60.47" class="pct medium">60.47%</td>
+	<td data-value="43" class="abs medium">26/43</td>
+	<td data-value="53.06" class="pct medium">53.06%</td>
+	<td data-value="49" class="abs medium">26/49</td>
+	<td data-value="75" class="pct medium">75%</td>
+	<td data-value="4" class="abs medium">3/4</td>
+	<td data-value="57.5" class="pct medium">57.5%</td>
+	<td data-value="40" class="abs medium">23/40</td>
+	</tr>
+
+</tbody>
+</table>
+</div>
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Mon Mar 21 2022 11:04:35 GMT+0000 (gecoördineerde wereldtijd)
+            </div>
+        </div>
+        <script src="../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../sorter.js"></script>
+        <script src="../../block-navigation.js"></script>
+    </body>
+</html>
+    
